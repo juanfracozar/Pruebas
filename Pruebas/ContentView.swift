@@ -26,6 +26,8 @@ struct ContentView: View {
                 Toggle(isOn: $fondo) {
                     Text("Eliminar fondo")
                     }
+                Spacer()
+                BotonSus()
                 }
             }
     }
